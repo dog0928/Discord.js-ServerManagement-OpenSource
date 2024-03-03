@@ -8,7 +8,7 @@ https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/
 ## 設定方法
 Git
 ```
-https://github.com/dog0928/Discord.js-ServerManagement-OpenSource.git
+git clone https://github.com/dog0928/Discord.js-ServerManagement-OpenSource.git
 ```
 1.以下のコマンドを実行します。<br>
 ```
