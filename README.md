@@ -66,9 +66,3 @@ https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/<
 [YouTube](https://www.youtube.com/@obaka_Dog)<br>
 [X](https://x.com/dog_obaka)<br>
 [X Sub Account](https://x.com/Dog_Program09)
-
-## 提供
-
-このプロジェクトでは、JetBrainsの製品を使用しています。JetBrainsは、オープンソースコミュニティに対する貢献を重視しており、私たちのプロジェクトに無料でアクセスできるよう支援しています。JetBrainsの素晴らしいツールを使用できることに感謝しています。プロジェクトのサポートやJetBrainsへの寄付は、今後のプロジェクトの成長と発展に役立ちます。JetBrainsへのサポートに興味がある方は、[JetBrainsのウェブサイト](https://www.jetbrains.com/ja-jp/)をご覧ください。
-
-![JetBrains](https://www.jetbrains.com/company/brand/img/jetbrains_logo.png)
