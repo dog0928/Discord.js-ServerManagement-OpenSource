@@ -62,6 +62,6 @@ https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/
 
 ## 提供
 
-このプロジェクトでは、JetBrainsの製品を使用しています。JetBrainsは、オープンソースコミュニティに対する貢献を重視しており、私たちのプロジェクトに無料でアクセスできるよう支援しています。JetBrainsの素晴らしいツールを使用できることに感謝しています。プロジェクトのサポートやJetBrainsへの寄付は、今後のプロジェクトの成長と発展に役立ちます。JetBrainsへのサポートに興味がある方は、[JetBrainsのウェブサイト](https://www.jetbrains.com)をご覧ください。
+このプロジェクトでは、JetBrainsの製品を使用しています。JetBrainsは、オープンソースコミュニティに対する貢献を重視しており、私たちのプロジェクトに無料でアクセスできるよう支援しています。JetBrainsの素晴らしいツールを使用できることに感謝しています。プロジェクトのサポートやJetBrainsへの寄付は、今後のプロジェクトの成長と発展に役立ちます。JetBrainsへのサポートに興味がある方は、[JetBrainsのウェブサイト](https://www.jetbrains.com/ja-jp/)をご覧ください。
 
 ![JetBrains](https://www.jetbrains.com/company/brand/img/jetbrains_logo.png)
