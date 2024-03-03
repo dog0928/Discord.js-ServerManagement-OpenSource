@@ -1,4 +1,4 @@
-MIT License
+Discord.js ServerManagementOpenSource License
 
 Copyright (c) 2024 obaka_dog
 
