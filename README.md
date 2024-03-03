@@ -57,6 +57,7 @@ https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/<
 あと、メッセージを右クリックして**アプリ/メッセージを報告** でメッセージを報告することが出来る<br>
 
 ## 各種SNS
+[YouTube](https://www.youtube.com/@obaka_Dog)<br>
 [X](https://x.com/dog_obaka)<br>
 [X Sub Account](https://x.com/Dog_Program09)
 
