@@ -4,7 +4,9 @@ MC連携,レポート機能,お問い合わせ機能などなどが兼ね備え�
 こちらを使ったらMC鯖の管理,Discord鯖の管理などが出来るようになります。<br>
 設定に関してはDiscordの方しか記入していませんがMC鯖のRCONの設定、メンテナンスプラグインの導入が必要です。<br>
 メンテナンスプラグインはこちらを使用します<br>
-https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/
+https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/<br>
+こちらのサイトでも使い方などが書いてあります<br>
+https://pocketen.com/opensource/ServerManagementOpenSource.html
 ## 設定方法
 Git
 ```
