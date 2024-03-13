@@ -50,7 +50,7 @@ module.exports = {
     const resultReply = await interaction.channel.send(`## **${embed.title}** の投票結果：\n${resultMessage}`);
     
     // 投票メッセージを編集して終了を示す
-    message.edit({ content: `この投票は終了しました。\n[**結果のメッセージリンク**](https://discord.com/channels/${interaction.guild.id}/${channelId}/${resultReply.id})`, embeds: [] });
+    message.edit({ content: `この投票は終了しました。`, embeds: [] });
     
     // 元の投票メッセージのリアクションをすべて削除
     message.reactions.removeAll().catch(error => console.error('リアクションを削除できませんでした:', error));
