@@ -1,0 +1,25 @@
+{
+  "name": "discord.js-servermanagement-opensource",
+  "version": "1.0.0",
+  "description": "MC連携,レポート機能,お問い合わせ機能などなどが兼ね備えられているDiscord.jsを使用したプログラムとなっています。<br> こちらを使ったらMC鯖の管理,Discord鯖の管理などが出来るようになります。<br> 設定に関してはDiscordの方しか記入していませんがMC鯖のRCONの設定、メンテナンスプラグインの導入が必要です。<br> メンテナンスプラグインはこちらを使用します<br> https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/<br> こちらのサイトでも使い方などが書いてあります<br> https://pocketen.com/opensource/ServerManagementOpenSource.html ## 設定方法 Git ``` git clone https://github.com/dog0928/Discord.js-ServerManagement-OpenSource.git ``` 1.以下のコマンドを実行します。<br> ``` npm init npm i discord.js dotenv sequelize qs fs pg rcon rcon-client minecraft-server-util qs request @discordjs/builders @discordjs/rest ``` でセットアップをします<br> 2.package.jsonのmainがapp.jsになっていることを確認してください<br> 3.**「.env」** ファイルを作成<br> ``` ##Discord clientId=Bot Client Id guildId=ServerId token=Bot Token",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.9.0",
+    "@discordjs/rest": "^2.4.0",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "minecraft-server-util": "^5.4.4",
+    "pg": "^8.13.0",
+    "qs": "^6.13.0",
+    "rcon": "^1.1.0",
+    "rcon-client": "^4.2.5",
+    "request": "^2.88.2",
+    "sequelize": "^6.37.3"
+  }
+}
