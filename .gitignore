@@ -1,0 +1,8 @@
+/*
+!/.gitignore
+!/.env.example
+!/README.md
+!/app.js
+!/config.json
+!/package.json
+!/commands/
