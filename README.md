@@ -14,7 +14,6 @@ git clone https://github.com/dog0928/Discord.js-ServerManagement-OpenSource.git
 ```
 1.以下のコマンドを実行します。<br>
 ```
-npm init
 npm i discord.js dotenv sequelize qs fs pg rcon rcon-client minecraft-server-util qs request @discordjs/builders @discordjs/rest
 ```
 でセットアップをします<br>
