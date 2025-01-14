@@ -9,10 +9,8 @@ async function getProfileId(username) {
         const response = await fetch(`https://api.mojang.com/users/profiles/minecraft/${username}`);
         const data = await response.json();
         if (data && data.id) {
-            // Mojang APIからのレスポンスにプロフィールIDが含まれている場合
             return data.id;
         } else {
-            // ユーザーが見つからない場合
             return null;
         }
     } catch (error) {
@@ -21,8 +19,8 @@ async function getProfileId(username) {
     }
 }
 
-// テスト用のユーザー名を指定して、プロフィールIDを取得する
-const username = 'aaa'; // ここにユーザー名を入力してください
+const username = 'dosukoiya01'; // ここにユーザー名を入力してください
+
 getProfileId(username)
     .then(profileId => {
         if (profileId) {
@@ -67,10 +65,8 @@ module.exports = {
             const mcName = interaction.options.getString('mcname');
             const readRules = interaction.options.getString('read_rules');
 
-            // interactionオブジェクトからclientを取得
             const client = interaction.client;
 
-            // 取得したclientを使用して別のチャンネルにメッセージを送信
             const otherChannel = client.channels.cache.get(RoleChannel);
             const NoficationChannel = client.channels.cache.get(RoleNofication);
 
@@ -98,14 +94,11 @@ module.exports = {
 
                 collector.on('collect', async i => {
                     if (i.customId === 'AllowBtn') {
-                        // interactionオブジェクトからclientを取得
                         const member = interaction.guild.members.cache.get(interaction.user.id);
-                        
-                        // ロールを取得
+
                         const role = interaction.guild.roles.cache.find(role => role.name === RoleName);
 
                     if(edition === "java"){
-                        // ロールをメンバーに付与
                         try {
                             await member.roles.add(role);
                             async function main() {

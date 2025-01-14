@@ -14,33 +14,18 @@ git clone https://github.com/dog0928/Discord.js-ServerManagement-OpenSource.git
 ```
 1.以下のコマンドを実行します。<br>
 ```
-npm init
-npm i discord.js dotenv sequelize qs fs pg rcon rcon-client minecraft-server-util qs request @discordjs/builders @discordjs/rest
+npm i
 ```
 でセットアップをします<br>
 2.package.jsonのmainがapp.jsになっていることを確認してください<br>
-3.**「.env」** ファイルを作成<br>
-```
-##Discord
-clientId=Bot Client Id
-guildId=ServerId
-token=Bot Token
+3.**「.env」** というファイルの中身を環境にあったものに変えてください<br>
 
-##MCサーバー
-MC_IP=RCON IP
-MC_PORT=RCON PORT
-MC_PASS=RCON PASS
-
-##データベース
-DB_IP=DB IP
-DB_PASS=DB PASS
-```
 このように記入してください。<br>
 4.**「config.json」** の中を書く。<br>
 5.**「pm2 start app.js」** でBotを起動する。<br>
 ※pm2をインストールしてない場合は<br>
 ```
-npm i pm2
+npm i -g pm2
 ```
 多分これで使える。<br>
 ## コマンド一覧
@@ -64,5 +49,5 @@ https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support.40699/<
 
 ## 各種SNS
 [YouTube](https://www.youtube.com/@obaka_Dog)<br>
-[X](https://x.com/dog_obaka)<br>
-[X Sub Account](https://x.com/Dog_Program09)
+[X](https://x.com/DogOfGoogle)<br>
+[X Sub Account](https://x.com/DogEatVegetable)
