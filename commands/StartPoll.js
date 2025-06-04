@@ -106,7 +106,7 @@ module.exports = {
         const result = embed.description.split('\n').map(field => {
             const emoji = field.split(' ')[0];
             const choice = field.split(' ')[1];
-            const reaction = reactions.find(reaction => reaction._emoji.name === emoji);
+            const reaction = reactions.find(r => r.emoji && r.emoji.name === emoji);
             const count = reaction ? reaction.count : 0; // 自分自身のリアクションを除外
             return { emoji, choice, count };
           });
